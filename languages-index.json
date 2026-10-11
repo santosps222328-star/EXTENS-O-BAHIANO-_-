@@ -1,0 +1,26 @@
+<escape>{
+"schemaVersion": 1,
+"defaultLanguage": "pt-BR",
+"languages": [
+{
+"code": "pt-BR",
+"name": "Português (Brasil)",
+"file": "languages-pt-BR.json"
+},
+{
+"code": "pt-PT",
+"name": "Português (Portugal)",
+"file": "languages-pt-PT.json"
+},
+{
+"code": "en",
+"name": "English",
+"file": "languages-en.json"
+},
+{
+"code": "id",
+"name": "Bahasa Indonesia",
+"file": "languages-id.json"
+}
+]
+}</escape>

@@ -1,0 +1,18 @@
+<escape>{
+"language": "pt-BR",
+"name": "Português (Brasil)",
+"strings": {
+"settings.language": "Idioma",
+"settings.language.description": "Escolha o idioma da extensão.",
+"settings.help": "Ajuda",
+"settings.save": "Salvar",
+"settings.cancel": "Cancelar",
+"common.loading": "Carregando…",
+"common.error": "Ocorreu um erro.",
+"common.retry": "Tentar novamente",
+"language.downloadFailed": "Não foi possível baixar o idioma. Usando a tradução local.",
+"language.updated": "Idioma atualizado.",
+"welcome.title": "Bem-vindo",
+"search.placeholder": "Pesquisar na web…"
+}
+}</escape>

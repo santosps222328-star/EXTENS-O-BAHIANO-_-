@@ -1,0 +1,32 @@
+name: Validar traduções
+
+on:
+  push:
+    paths:
+      - 'languages-*.json'
+      - 'languages-index.json'
+      - 'languages-template.json'
+      - 'scripts/validate-translations.py'
+      - '.github/workflows/validate-translations.yml'
+  pull_request:
+    paths:
+      - 'languages-*.json'
+      - 'languages-index.json'
+      - 'languages-template.json'
+      - 'scripts/validate-translations.py'
+      - '.github/workflows/validate-translations.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Validar pacotes
+        run: python scripts/validate-translations.py

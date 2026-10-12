@@ -1,26 +1,46 @@
-<escape>{
-"schemaVersion": 1,
-"defaultLanguage": "pt-BR",
-"languages": [
 {
-"code": "pt-BR",
-"name": "Português (Brasil)",
-"file": "languages-pt-BR.json"
-},
-{
-"code": "pt-PT",
-"name": "Português (Portugal)",
-"file": "languages-pt-PT.json"
-},
-{
-"code": "en",
-"name": "English",
-"file": "languages-en.json"
-},
-{
-"code": "id",
-"name": "Bahasa Indonesia",
-"file": "languages-id.json"
+  "schemaVersion": 1,
+  "defaultLanguage": "pt-BR",
+  "languages": [
+    {
+      "code": "pt-BR",
+      "name": "Português (Brasil)",
+      "file": "languages-pt-BR.json"
+    },
+    {
+      "code": "en-US",
+      "name": "English (United States)",
+      "file": "languages-en-US.json"
+    },
+    {
+      "code": "pt-PT",
+      "name": "Português (Portugal)",
+      "file": "languages-pt-PT.json"
+    },
+    {
+      "code": "ru",
+      "name": "Русский",
+      "file": "languages-ru.json"
+    },
+    {
+      "code": "zh-CN",
+      "name": "简体中文",
+      "file": "languages-zh-CN.json"
+    },
+    {
+      "code": "ja",
+      "name": "日本語",
+      "file": "languages-ja.json"
+    },
+    {
+      "code": "id",
+      "name": "Bahasa Indonesia",
+      "file": "languages-id.json"
+    },
+    {
+      "code": "de",
+      "name": "Deutsch",
+      "file": "languages-de.json"
+    }
+  ]
 }
-]
-}</escape>

@@ -1,0 +1,7 @@
+{
+  "language": "xx",
+  "name": "Nome do idioma",
+  "strings": {
+    "example.newKey": "Tradução do novo texto"
+  }
+}
